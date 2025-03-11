@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/coin.png"> 
+    <!-- install daisyUI from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section id="navbar" class="sticky top-0 z-50 pb-6 ">
+        <div id="main-navbar" class=" bg-orange-100">
+            <div class="w-11/12 mx-auto navbar py-5">
+                <div class=" navbar-start">
+                    <button id="home-btn " class="btn btn-active bg-lime-400 text-xl  ">Home</button>
+                </div>
+                <div class="hidden md:block">
+                    <div class="navbar-center flex">
+                        <img class="w-1/6" src="assets/logo.png" alt="">
+                        <a class="btn btn-ghost text-xl">Donate Bangladesh</a>
+                    </div>
+                </div>
+
+                <div class="navbar-end">
+                    <img src="assets/coin.png" alt="">
+                    <p id="main-balance" class="font-bold">60000</p>
+                    <p class="font-bold">BDT</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class=" w-10/12 mx-auto pt-4 space-y-4 pb-8">
+        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title font-semibold">What is JavaScript?</div>
+            <div class="collapse-content text-sm">JavaScript is a scripting language used to create and control dynamic
+                website content.</div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title font-semibold">What is the difference between var, let, and const?</div>
+            <div class="collapse-content text-sm">var is function-scoped, let is block-scoped, and const is also
+                block-scoped but cannot be reassigned.</div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title font-semibold">What is an arrow function in JavaScript?</div>
+            <div class="collapse-content text-sm">An arrow function is a concise way to write functions using => syntax.
+            </div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title font-semibold">What is the DOM?</div>
+            <div class="collapse-content text-sm">The DOM (Document Object Model) is a programming interface for web
+                documents that allows scripts to update the content and structure dynamically.</div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title font-semibold">What is an event listener in JavaScript?</div>
+            <div class="collapse-content text-sm">An event listener is a function that waits for a specific event to
+                occur on an element.</div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title font-semibold">What are JavaScript promises?</div>
+            <div class="collapse-content text-sm">A promise is an object that represents the eventual completion or
+                failure of an asynchronous operation.</div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title font-semibold">How do you handle errors in JavaScript?</div>
+            <div class="collapse-content text-sm">Errors can be handled using try...catch blocks or by using .catch()
+                with promises.</div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title font-semibold">What is a closure in JavaScript?</div>
+            <div class="collapse-content text-sm">A closure is a function that remembers the variables from its outer
+                scope even after the outer function has finished executing.</div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title font-semibold">What is the difference between == and === in JavaScript?</div>
+            <div class="collapse-content text-sm">== checks for value equality with type coercion, while === checks for
+                both value and type equality.</div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title font-semibold">What is the difference between synchronous and asynchronous
+                JavaScript?</div>
+            <div class="collapse-content text-sm">Synchronous JavaScript executes code line by line, while asynchronous
+                JavaScript allows non-blocking operations like API calls and setTimeout.</div>
+        </div>
+    </div>
+    <script src="js/blog.js"></script>
+</body>
+
+</html>
